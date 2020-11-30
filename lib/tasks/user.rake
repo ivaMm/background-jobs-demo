@@ -26,4 +26,4 @@ namespace :user do
 end
 
 # Update user of id 1 with this command:
-# noglob rails user:update[1]
+# noglob rails user:update[1] || rails user:update\[\1]
