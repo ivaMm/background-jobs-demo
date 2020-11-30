@@ -15,3 +15,9 @@ class User < ApplicationRecord
   end
 =end
 end
+
+=begin
+  # delay the job:
+  FakeJob.set(wait: 1.minute).perform_later
+  FakeJob.set(wait_until: Date.tomorrow.noon).perform_later
+=end
